@@ -4,6 +4,18 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Pertemuan05_Interaction.unity
+    guid: 0a211271559685b619e8c7515457b372
+  - enabled: 1
+    path: Assets/Scenes/Pertemuan02_Diorama.unity
+    guid: 43331b15aee79e9728246588feef80cc
+  - enabled: 1
+    path: Assets/Scenes/Pertemuan03_CameraAudio.unity
+    guid: 43e2dc8b4cd23c0695ae621214fc0656
+  - enabled: 1
+    path: Assets/Scenes/Pertemuan04_Scripting.unity
+    guid: 6cb0425eddf291ef3cacbc8067075e9b
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
