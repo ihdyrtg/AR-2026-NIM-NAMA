@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
+  companyName: com.kelasar.nimnama
   productName: Editor Essentials
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -166,7 +166,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.4
   androidMinAspectRatio: 1
   applicationIdentifier:
-    Android: com.unity.template.essentials-pathway
+    Android: com.praktikum.pertemuan05
     Standalone: com.unity.template.essentials-pathway
     iPhone: com.unity.template.essentials-pathway
   buildNumber:
@@ -529,7 +529,10 @@ PlayerSettings:
       m_Height: 720
       m_Kind: 1
       m_SubKind: 
-  m_BuildTargetBatching: []
+  m_BuildTargetBatching:
+  - m_BuildTarget: Android
+    m_StaticBatching: 1
+    m_DynamicBatching: 0
   m_BuildTargetShaderSettings: []
   m_BuildTargetGraphicsJobs: []
   m_BuildTargetGraphicsJobMode: []
@@ -868,8 +871,8 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Editor Essentials
-  metroPackageVersion: 
+  metroPackageName: EditorEssentials
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -877,7 +880,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: Editor Essentials
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: Editor Essentials
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
